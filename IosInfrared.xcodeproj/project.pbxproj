@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84D4AADA19BEEA1000B15957 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D4AAD919BEEA1000B15957 /* AppDelegate.swift */; };
+		84D4AADC19BEEA1000B15957 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D4AADB19BEEA1000B15957 /* ViewController.swift */; };
+		84D4AADF19BEEA1000B15957 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D4AADD19BEEA1000B15957 /* Main.storyboard */; };
+		84D4AAE119BEEA1000B15957 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D4AAE019BEEA1000B15957 /* Images.xcassets */; };
+		84D4AAED19BEEA1000B15957 /* IosInfraredTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D4AAEC19BEEA1000B15957 /* IosInfraredTests.swift */; };
+		84D4AAFD19BEEABB00B15957 /* Signal.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D4AAFA19BEEABB00B15957 /* Signal.m */; };
+		84D4AAFE19BEEABB00B15957 /* SignalManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D4AAFC19BEEABB00B15957 /* SignalManager.m */; };
+		84D4AB0019BEEB0100B15957 /* SignalFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D4AAFF19BEEB0100B15957 /* SignalFormat.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84D4AAE719BEEA1000B15957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D4AACC19BEEA1000B15957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D4AAD319BEEA1000B15957;
+			remoteInfo = IosInfrared;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84D4AAD419BEEA1000B15957 /* IosInfrared.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosInfrared.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D4AAD819BEEA1000B15957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D4AAD919BEEA1000B15957 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84D4AADB19BEEA1000B15957 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84D4AADE19BEEA1000B15957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84D4AAE019BEEA1000B15957 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84D4AAE619BEEA1000B15957 /* IosInfraredTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IosInfraredTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D4AAEB19BEEA1000B15957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D4AAEC19BEEA1000B15957 /* IosInfraredTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosInfraredTests.swift; sourceTree = "<group>"; };
+		84D4AAF819BEEABA00B15957 /* IosInfrared-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IosInfrared-Bridging-Header.h"; sourceTree = "<group>"; };
+		84D4AAF919BEEABB00B15957 /* Signal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Signal.h; sourceTree = "<group>"; };
+		84D4AAFA19BEEABB00B15957 /* Signal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Signal.m; sourceTree = "<group>"; };
+		84D4AAFB19BEEABB00B15957 /* SignalManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignalManager.h; sourceTree = "<group>"; };
+		84D4AAFC19BEEABB00B15957 /* SignalManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignalManager.m; sourceTree = "<group>"; };
+		84D4AAFF19BEEB0100B15957 /* SignalFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignalFormat.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D4AAD119BEEA1000B15957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D4AAE319BEEA1000B15957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84D4AACB19BEEA1000B15957 = {
+			isa = PBXGroup;
+			children = (
+				84D4AAF719BEEA8200B15957 /* nec */,
+				84D4AAF619BEEA7600B15957 /* signal */,
+				84D4AAD619BEEA1000B15957 /* IosInfrared */,
+				84D4AAE919BEEA1000B15957 /* IosInfraredTests */,
+				84D4AAD519BEEA1000B15957 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84D4AAD519BEEA1000B15957 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D4AAD419BEEA1000B15957 /* IosInfrared.app */,
+				84D4AAE619BEEA1000B15957 /* IosInfraredTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D4AAD619BEEA1000B15957 /* IosInfrared */ = {
+			isa = PBXGroup;
+			children = (
+				84D4AAD919BEEA1000B15957 /* AppDelegate.swift */,
+				84D4AADB19BEEA1000B15957 /* ViewController.swift */,
+				84D4AADD19BEEA1000B15957 /* Main.storyboard */,
+				84D4AAE019BEEA1000B15957 /* Images.xcassets */,
+				84D4AAD719BEEA1000B15957 /* Supporting Files */,
+			);
+			path = IosInfrared;
+			sourceTree = "<group>";
+		};
+		84D4AAD719BEEA1000B15957 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84D4AAD819BEEA1000B15957 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84D4AAE919BEEA1000B15957 /* IosInfraredTests */ = {
+			isa = PBXGroup;
+			children = (
+				84D4AAEC19BEEA1000B15957 /* IosInfraredTests.swift */,
+				84D4AAEA19BEEA1000B15957 /* Supporting Files */,
+			);
+			path = IosInfraredTests;
+			sourceTree = "<group>";
+		};
+		84D4AAEA19BEEA1000B15957 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84D4AAEB19BEEA1000B15957 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84D4AAF619BEEA7600B15957 /* signal */ = {
+			isa = PBXGroup;
+			children = (
+				84D4AAF919BEEABB00B15957 /* Signal.h */,
+				84D4AAFA19BEEABB00B15957 /* Signal.m */,
+				84D4AAFB19BEEABB00B15957 /* SignalManager.h */,
+				84D4AAFC19BEEABB00B15957 /* SignalManager.m */,
+				84D4AAF819BEEABA00B15957 /* IosInfrared-Bridging-Header.h */,
+			);
+			name = signal;
+			sourceTree = "<group>";
+		};
+		84D4AAF719BEEA8200B15957 /* nec */ = {
+			isa = PBXGroup;
+			children = (
+				84D4AAFF19BEEB0100B15957 /* SignalFormat.swift */,
+			);
+			name = nec;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D4AAD319BEEA1000B15957 /* IosInfrared */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D4AAF019BEEA1000B15957 /* Build configuration list for PBXNativeTarget "IosInfrared" */;
+			buildPhases = (
+				84D4AAD019BEEA1000B15957 /* Sources */,
+				84D4AAD119BEEA1000B15957 /* Frameworks */,
+				84D4AAD219BEEA1000B15957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IosInfrared;
+			productName = IosInfrared;
+			productReference = 84D4AAD419BEEA1000B15957 /* IosInfrared.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84D4AAE519BEEA1000B15957 /* IosInfraredTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D4AAF319BEEA1000B15957 /* Build configuration list for PBXNativeTarget "IosInfraredTests" */;
+			buildPhases = (
+				84D4AAE219BEEA1000B15957 /* Sources */,
+				84D4AAE319BEEA1000B15957 /* Frameworks */,
+				84D4AAE419BEEA1000B15957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D4AAE819BEEA1000B15957 /* PBXTargetDependency */,
+			);
+			name = IosInfraredTests;
+			productName = IosInfraredTests;
+			productReference = 84D4AAE619BEEA1000B15957 /* IosInfraredTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D4AACC19BEEA1000B15957 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = FoolishTreeCat;
+				TargetAttributes = {
+					84D4AAD319BEEA1000B15957 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					84D4AAE519BEEA1000B15957 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 84D4AAD319BEEA1000B15957;
+					};
+				};
+			};
+			buildConfigurationList = 84D4AACF19BEEA1000B15957 /* Build configuration list for PBXProject "IosInfrared" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84D4AACB19BEEA1000B15957;
+			productRefGroup = 84D4AAD519BEEA1000B15957 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D4AAD319BEEA1000B15957 /* IosInfrared */,
+				84D4AAE519BEEA1000B15957 /* IosInfraredTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D4AAD219BEEA1000B15957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D4AADF19BEEA1000B15957 /* Main.storyboard in Resources */,
+				84D4AAE119BEEA1000B15957 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D4AAE419BEEA1000B15957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D4AAD019BEEA1000B15957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D4AAFD19BEEABB00B15957 /* Signal.m in Sources */,
+				84D4AB0019BEEB0100B15957 /* SignalFormat.swift in Sources */,
+				84D4AADC19BEEA1000B15957 /* ViewController.swift in Sources */,
+				84D4AADA19BEEA1000B15957 /* AppDelegate.swift in Sources */,
+				84D4AAFE19BEEABB00B15957 /* SignalManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D4AAE219BEEA1000B15957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D4AAED19BEEA1000B15957 /* IosInfraredTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84D4AAE819BEEA1000B15957 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D4AAD319BEEA1000B15957 /* IosInfrared */;
+			targetProxy = 84D4AAE719BEEA1000B15957 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84D4AADD19BEEA1000B15957 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D4AADE19BEEA1000B15957 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84D4AAEE19BEEA1000B15957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84D4AAEF19BEEA1000B15957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D4AAF119BEEA1000B15957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = IosInfrared/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IosInfrared-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84D4AAF219BEEA1000B15957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = IosInfrared/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IosInfrared-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		84D4AAF419BEEA1000B15957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IosInfraredTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IosInfrared.app/IosInfrared";
+			};
+			name = Debug;
+		};
+		84D4AAF519BEEA1000B15957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IosInfraredTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IosInfrared.app/IosInfrared";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D4AACF19BEEA1000B15957 /* Build configuration list for PBXProject "IosInfrared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D4AAEE19BEEA1000B15957 /* Debug */,
+				84D4AAEF19BEEA1000B15957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D4AAF019BEEA1000B15957 /* Build configuration list for PBXNativeTarget "IosInfrared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D4AAF119BEEA1000B15957 /* Debug */,
+				84D4AAF219BEEA1000B15957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84D4AAF319BEEA1000B15957 /* Build configuration list for PBXNativeTarget "IosInfraredTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D4AAF419BEEA1000B15957 /* Debug */,
+				84D4AAF519BEEA1000B15957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84D4AACC19BEEA1000B15957 /* Project object */;
+}
